@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital@1&family=Libre+Baskerville:ital@1&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@100&family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital@1&family=Libre+Baskerville:ital@1&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@100&family=Tilt+Prism&family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+ <style>
+        body{
+            margin: 0;
+            font-family: 'Asap Condensed', sans-serif;
+            background-color: #E3F4F4;
+        }
+        .products{
+            text-align: center;
+        }
+        h1{
+            background-color: #FFBFBF;
+            font-size: 70px;
+            border: 6px solid black;
+            border-radius: 50px;   
+            margin-bottom: 10px;    
+            margin-top:5px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 150;                 
+        }
+        h1:hover{
+            background-color: whitesmoke;
+        }
+        .subtitle{
+            margin: 0;
+            color: #FFC436;
+        }
+        #search{
+            margin: 5px 85px;
+            padding: 0 85px;
+            text-align: left;
+        }
+        .jean-content{
+            display: flex;
+            justify-content: center;
+        }
+        .jean{
+            width: 300px;
+            height: 300px;
+            border: 5px solid black ;
+            border-radius: 10px;
+            margin: 20px 50px;
+            padding: 10px;
+        }   
+        button{
+            background-color: #FFBFBF;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin-bottom: 13px;
+            height: 60px;
+            width: 100px;
+        }
+        button:hover{
+            background-color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-family: 'Asap Condensed', sans-serif;
+            font-weight: 300;
+        }
+        span{
+            text-decoration:line-through;
+        }
+        .bottom-container{
+           background-color:#FFC436 ;
+           padding: 20px 0;
+           text-align: center;
+           margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="products">
+         <a href="./index.html" class="back-main"><h1>Pazar Yeri</h1>  </a>      <!--jean bölümünden anasayfa ya dönmek için-->        
+        <h2 class="subtitle">Stoklar sınırlı sayıda !!</h2>
+        <h3 id="search">Jean kategorisinde ki ürünler : 3 ürün</h3> 
+        <div class="jean-content">
+             <div  id="blue-jean">
+            <img src="./assets/jeans/jeans.png" alt="blue jean" class="jean">
+            <h2>Blue Regular fit Jean</h2>            
+            <p>Ürün %60 pamuk %40 polyesterden yapılmaktadır</p> 
+            <h3> <span>749.99 Tl</span> yerine 599.90 TL</h3>  
+            <button class="button"><a href="#">Sepete Ekle</a></button>
+            </div>
+             
+            <div  id="black-jean">
+             <img src="./assets/jeans/blackjean.png" alt="black jean" class="jean">
+            <h2>Black Regular fit Jean</h2>  
+            <p>Ürün %60 pamuk %40 polyesterden yapılmaktadır</p> 
+            <h3>  <span>749.99 Tl</span>  yerine  599.90 TL</h3>
+            <button class="button"><a href="#">Sepete Ekle</a></button>
+            </div>
+
+            <div  id="white-jean">
+            <img src="./assets/jeans/whitejean.png" alt="white jean" class="jean">
+             <h2>White Regular fit Jean</h2>  
+            <p>Ürün %60 pamuk %40 polyesterden yapılmaktadır</p> 
+            <h3>  <span>749.99 Tl</span>  yerine  599.90 TL</h3>
+            <button class="button"><a href="#">Sepete Ekle</a></button>
+            </div>
+        </div>                                           
+        </div>         
+    <div class="bottom-container">
+        <p class="under-title">© YazilimaOrg Kamp @ Mustafa Berke Ketencioğlu .</p>
+    </div>
+</body>
+</html>

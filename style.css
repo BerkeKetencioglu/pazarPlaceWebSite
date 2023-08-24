@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap Condensed', sans-serif;
+}
+h2{
+    color: #FFC436;
+    font-size: 15px;
+}
+.top-container{
+    font-family: 'Asap Condensed', sans-serif;
+    text-align: center;
+}
+.heading{
+    background-color: #E3F4F4;
+    padding:15px 0;
+    border: 5px solid #79E0EE;
+    border-radius: 5px;
+    color: #79E0EE;   
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    margin: 0 30px;    
+}
+.cloud{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 50px;
+}
+.cloud-two{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 50px;
+}
+#title{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    color: #05BFDB;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.title-hr{
+    width: 20%;
+}
+#subtitle{
+    font-size: 20px;    
+}
+.img-main{
+    display: flex;
+    justify-content:space-around;
+}
+.img{
+    height: 300px;
+    width: 300px; 
+    margin: 0 30px;
+    margin-top: 10px;
+}
+.advert-text{
+    font-size: 15px;
+    font-weight: 600;
+}
+hr{
+    border: dotted #79E0EE 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 20px auto;
+}
+.subtitle2{
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.main-container{
+    background-color: #E3F4F4;
+    padding: 50px 0;
+    text-align: center;
+}
+.products-container{
+    display: flex;
+    justify-content: center;     
+}
+.products{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #FFC436;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 80px ;
+}
+.products:hover{
+    height:210px ;
+    width: 210px;
+    background-color: #FFBFBF;
+    border:10px solid #79E0EE;
+}
+h3{
+    display:inline-flex;
+    justify-content: center; 
+    margin: 25px 162px;
+    position: relative;
+    left: 6px;    
+    font-size: 20px;
+    color: #FFC436;
+}
+.bottom-container{
+    background-color:#FFC436 ;
+    padding: 20px 0;
+    text-align: center;
+}
